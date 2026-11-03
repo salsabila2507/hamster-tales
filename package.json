@@ -1,0 +1,20 @@
+{
+  "name": "hamster-tales",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Hamster Tales: The Great Seed Adventure - a 2D platformer built with Phaser 4",
+  "scripts": {
+    "dev": "vite",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --port 4173"
+  },
+  "dependencies": {
+    "phaser": "^4.2.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3",
+    "vite": "^8.3.5"
+  }
+}
